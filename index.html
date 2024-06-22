@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Philippines</title>
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🇵🇭</text></svg>">
+        <link rel="preconnect" href="https://api.iptv-web.app">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Noto+Color+Emoji&display=swap">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Stream publicly available live TV channels.">
+        <meta name="generator" content="Astro v4.10.2">
+        <meta name="theme-color" content="#000000">
+        <link rel="manifest" href="/manifest.json">
+        <link rel="home" href="https://iptv-web.app/">
+        <link rel="canonical" href="https://iptv-web.app/PH/">
+        <link rel="sitemap" href="/sitemap-index.xml">
+        <meta name="googlebot" content="notranslate">
+        <meta name="google-site-verification" content="f9t27g4PfcjrZN3PeB8NwebkYHzWnrWTX8eiU-OA4nc">
+        <link rel="stylesheet" href="/__/_country_.DFxizHEy.css">
+        <link rel="stylesheet" href="/__/_country_.CAmKo96m.css">
+        <link rel="stylesheet" href="/__/_country_.DHOiR-D6.css">
+    </head>
+    <body>
+        <header class="astro-7a7bzblm">
+            <a class="back astro-7a7bzblm" href="https://cee-tv.github.io/Iptvfree/">
+                <img src="/__/E24D.Dz08rX1B.svg" alt="Navigation back" class="astro-7a7bzblm">
+            </a>
+            <h1 class="astro-7a7bzblm">Philippines</h1>
+        </header>
+        <header>
+            <style>
+                astro-island,astro-slot,astro-static-slot {
+                    display: contents
+                }
+            </style>
+            <script>
+                (()=>{
+                    var i = t=>{
+                        let e = async()=>{
+                            await (await t())()
+                        }
+                        ;
+                        "requestIdleCallback"in window ? window.requestIdleCallback(e) : setTimeout(e, 200)
+                    }
+                    ;
+                    (self.Astro || (self.Astro = {})).idle = i;
+                    window.dispatchEvent(new Event("astro:idle"));
+                }
+                )();
+                ;(()=>{
+                    var A = Object.defineProperty;
+                    var g = (i,o,a)=>o in i ? A(i, o, {
+                        enumerable: !0,
+                        configurable: !0,
+                        writable: !0,
+                        value: a
+                    }) : i[o] = a;
+                    var d = (i,o,a)=>g(i, typeof o != "symbol" ? o + "" : o, a);
+                    {
+                        let i = {
+                            0: t=>m(t),
+                            1: t=>a(t),
+                            2: t=>new RegExp(t),
+                            3: t=>new Date(t),
+                            4: t=>new Map(a(t)),
+                            5: t=>new Set(a(t)),
+                            6: t=>BigInt(t),
+                            7: t=>new URL(t),
+                            8: t=>new Uint8Array(t),
+                            9: t=>new Uint16Array(t),
+                            10: t=>new Uint32Array(t)
+                        }
+                          , o = t=>{
+                            let[l,e] = t;
+                            return l in i ? i[l](e) : void 0
+                        }
+                          , a = t=>t.map(o)
+                          , m = t=>typeof t != "object" || t === null ? t : Object.fromEntries(Object.entries(t).map(([l,e])=>[l, o(e)]));
+                        class y extends HTMLElement {
+                            constructor() {
+                                super(...arguments);
+                                d(this, "Component");
+                                d(this, "hydrator");
+                                d(this, "hydrate", async()=>{
+                                    var b;
+                                    if (!this.hydrator || !this.isConnected)
+                                        return;
+                                    let e = (b = this.parentElement) == null ? void 0 : b.closest("astro-island[ssr]");
+                                    if (e) {
+                                        e.addEventListener("astro:hydrate", this.hydrate, {
+                                            once: !0
+                                        });
+                                        return
+                                    }
+                                    let c = this.querySelectorAll("astro-slot")
+                                      , n = {}
+                                      , h = this.querySelectorAll("template[data-astro-template]");
+                                    for (let r of h) {
+                                        let s = r.closest(this.tagName);
+                                        s != null && s.isSameNode(this) && (n[r.getAttribute("data-astro-template") || "default"] = r.innerHTML,
+                                        r.remove())
+                                    }
+                                    for (let r of c) {
+                                        let s = r.closest(this.tagName);
+                                        s != null && s.isSameNode(this) && (n[r.getAttribute("name") || "default"] = r.innerHTML)
+                                    }
+                                    let p;
+                                    try {
+                                        p = this.hasAttribute("props") ? m(JSON.parse(this.getAttribute("props"))) : {}
+                                    } catch (r) {
+                                        let s = this.getAttribute("component-url") || "<unknown>"
+                                          , v = this.getAttribute("component-export");
+                                        throw v && (s += ` (export ${v})`),
+                                        console.error(`[hydrate] Error parsing props for component ${s}`, this.getAttribute("props"), r),
+                                        r
+                                    }
+                                    let u;
+                                    await this.hydrator(this)(this.Component, p, n, {
+                                        client: this.getAttribute("client")
+                                    }),
+                                    this.removeAttribute("ssr"),
+                                    this.dispatchEvent(new CustomEvent("astro:hydrate"))
+                                }
+                                );
+                                d(this, "unmount", ()=>{
+                                    this.isConnected || this.dispatchEvent(new CustomEvent("astro:unmount"))
+                                }
+                                )
+                            }
+                            disconnectedCallback() {
+                                document.removeEventListener("astro:after-swap", this.unmount),
+                                document.addEventListener("astro:after-swap", this.unmount, {
+                                    once: !0
+                                })
+                            }
+                            connectedCallback() {
+                                if (!this.hasAttribute("await-children") || document.readyState === "interactive" || document.readyState === "complete")
+                                    this.childrenConnectedCallback();
+                                else {
+                                    let e = ()=>{
+                                        document.removeEventListener("DOMContentLoaded", e),
+                                        c.disconnect(),
+                                        this.childrenConnectedCallback()
+                                    }
+                                      , c = new MutationObserver(()=>{
+                                        var n;
+                                        ((n = this.lastChild) == null ? void 0 : n.nodeType) === Node.COMMENT_NODE && this.lastChild.nodeValue === "astro:end" && (this.lastChild.remove(),
+                                        e())
+                                    }
+                                    );
+                                    c.observe(this, {
+                                        childList: !0
+                                    }),
+                                    document.addEventListener("DOMContentLoaded", e)
+                                }
+                            }
+                            async childrenConnectedCallback() {
+                                let e = this.getAttribute("before-hydration-url");
+                                e && await import(e),
+                                this.start()
+                            }
+                            async start() {
+                                let e = JSON.parse(this.getAttribute("opts"))
+                                  , c = this.getAttribute("client");
+                                if (Astro[c] === void 0) {
+                                    window.addEventListener(`astro:${c}`, ()=>this.start(), {
+                                        once: !0
+                                    });
+                                    return
+                                }
+                                try {
+                                    await Astro[c](async()=>{
+                                        let n = this.getAttribute("renderer-url")
+                                          , [h,{default: p}] = await Promise.all([import(this.getAttribute("component-url")), n ? import(n) : ()=>()=>{}
+                                        ])
+                                          , u = this.getAttribute("component-export") || "default";
+                                        if (!u.includes("."))
+                                            this.Component = h[u];
+                                        else {
+                                            this.Component = h;
+                                            for (let f of u.split("."))
+                                                this.Component = this.Component[f]
+                                        }
+                                        return this.hydrator = p,
+                                        this.hydrate
+                                    }
+                                    , e, this)
+                                } catch (n) {
+                                    console.error(`[astro-island] Error hydrating ${this.getAttribute("component-url")}`, n)
+                                }
+                            }
+                            attributeChangedCallback() {
+                                this.hydrate()
+                            }
+                        }
+                        d(y, "observedAttributes", ["props"]),
+                        customElements.get("astro-island") || customElements.define("astro-island", y)
+                    }
+                }
+                )();
+            </script>
+            <astro-island uid="SuxPf" component-url="/__/search.CDC4tmTf.js" component-export="default" renderer-url="/__/client.Cx1FBVJX.js" props="{}" ssr="" client="idle" opts="{&quot;name&quot;:&quot;CountrySearch&quot;,&quot;value&quot;:true}" await-children="">
+                <dialog class="svelte-h8fy7l">
+                    <span class="svelte-h8fy7l">
+                        <input type="text" placeholder="Search Channels" class="svelte-h8fy7l" value="">
+                    </span>
+                </dialog>
+                <button type="button" aria-label="Search Channels" class="svelte-h8fy7l" data-svelte-h="svelte-s4ne2q">🔍</button>
+                <!--astro:end-->
+            </astro-island>
+        </header>
+        <details class="astro-zvy3f7fy">
+            <summary class="astro-zvy3f7fy">Popular</summary>
+            <section id="popularResults" class="astro-zvy3f7fy"></section>
+        </details>
+        <script type="module">
+            const o="https://api.iptv-web.app",e=document.getElementById("popularResults");if(e){try{const l=window.location.pathname.replaceAll("/",""),t=await(await fetch(o+`/${l}/popular`)).json();if(t?.length===0)e.parentElement.style.display="none";else if(e){for(const a of t){const n=document.getElementById(`${a}`);n&&e.insertAdjacentHTML("beforeend",n.outerHTML)}e.parentElement.style.display="grid",e.parentElement.open=!0}}catch{e.parentElement.style.display="none"}e.previousElementSibling?.insertAdjacentText("beforeend"," - "+e.childNodes?.length)}
+        </script>
+        <main>
+            <details>
+                <summary>general - 1 </summary>
+                <section>
+                    <a id="UNTV.ph" href="/PH/UNTV.ph/">
+                        <img decoding="async" loading="lazy" src="https://i.imgur.com/gFcpYSJ.png" alt="">UNTV 
+                    </a>
+                </section>
+            </details>
+            <details>
+                <summary>movies - 1 </summary>
+                <section>
+                    <a id="CinemaOne.ph" href="https://cee-tv.github.io/Movies/">
+                        <img decoding="async" loading="lazy" src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Cinema_One_2013_logo.svg/512px-Cinema_One_2013_logo.svg.png" alt="">Cinema One 
+                    </a>
+                </section>
+            </details>
+            <details>
+                <summary>news - 4 </summary>
+                <section>
+                    <a id="ANC.ph" href="/PH/ANC.ph/">
+                        <img decoding="async" loading="lazy" src="https://i.imgur.com/odwRbRk.png" alt="">ANC 
+                    </a>
+                    <a id="DZRHNewsTV.ph" href="/PH/DZRHNewsTV.ph/">
+                        <img decoding="async" loading="lazy" src="https://i.imgur.com/qe1QqZh.png" alt="">DZRH News TV 
+                    </a>
+                    <a id="PTV4.ph" href="/PH/PTV4.ph/">
+                        <img decoding="async" loading="lazy" src="https://i.imgur.com/T3jDOEq.png" alt="">PTV 4 
+                    </a>
+                    <a id="SMNINewsChannel.ph" href="/PH/SMNINewsChannel.ph/">
+                        <img decoding="async" loading="lazy" src="https://i.imgur.com/OZA4xPq.png" alt="">SMNI News Channel 
+                    </a>
+                </section>
+            </details>
+            <details>
+                <summary>religious - 1 </summary>
+                <section>
+                    <a id="AngDatingDaan.ph" href="/PH/AngDatingDaan.ph/">
+                        <img decoding="async" loading="lazy" src="https://upload.wikimedia.org/wikipedia/en/c/c4/Ang_Dating_Daan_New_Logo.png" alt="">Ang Dating Daan 
+                    </a>
+                </section>
+            </details>
+            <details>
+                <summary>Unknown - 16 </summary>
+                <section>
+                    <a id="CCTN47.ph" href="/PH/CCTN47.ph/">
+                        <img decoding="async" loading="lazy" src="https://i.imgur.com/IFpAmvW.png" alt="">CCTN 47 
+                    </a>
+                    <a id="CLTV36.ph" href="/PH/CLTV36.ph/">
+                        <img decoding="async" loading="lazy" src="https://i.imgur.com/IUcTFQ2.png" alt="">CLTV 36 
+                    </a>
+                    <a id="DepEdTV.ph" href="/PH/DepEdTV.ph/">
+                        <img decoding="async" loading="lazy" src="https://i.imgur.com/3BiY6mI.png" alt="">DepEd TV 
+                    </a>
+                    <a id="DZBBDT1.ph" href="/PH/DZBBDT1.ph/">
+                        <img decoding="async" loading="lazy" src="https://i.imgur.com/5GXTkZx.png" alt="">DZBB-DT1 
+                    </a>
+                    <a id="GMATV.ph" href="/PH/GMATV.ph/">
+                        <img decoding="async" loading="lazy" src="https://i.imgur.com/uAqFMLy.png" alt="">GMA TV 
+                    </a>
+                    <a id="GreatCommissionTV.ph" href="/PH/GreatCommissionTV.ph/">
+                        <img decoding="async" loading="lazy" src="https://i.imgur.com/8cvikOo.png" alt="">Great Commission TV 
+                    </a>
+                    <a id="INCTV.ph" href="/PH/INCTV.ph/">
+                        <img decoding="async" loading="lazy" src="https://i.imgur.com/JGSLqA6.png" alt="">INC TV 
+                    </a>
+                    <a id="INCTV.ph" href="/PH/INCTV.ph/">
+                        <img decoding="async" loading="lazy" src="https://i.imgur.com/JGSLqA6.png" alt="">INC TV 
+                    </a>
+                    <a id="LifeTVAsia.ph" href="/PH/LifeTVAsia.ph/">
+                        <img decoding="async" loading="lazy" src="https://i.imgur.com/xUr7A4V.png" alt="">Life TV Asia 
+                    </a>
+                    <a id="MyxPhilippines.ph" href="/PH/MyxPhilippines.ph/">
+                        <img decoding="async" loading="lazy" src="https://i.imgur.com/pbHuUuV.png" alt="">Myx Philippines 
+                    </a>
+                    <a id="Net25.ph" href="/PH/Net25.ph/">
+                        <img decoding="async" loading="lazy" src="https://i.imgur.com/pPPubX5.png" alt="">Net 25 
+                    </a>
+                    <a id="OrasngHimala.ph" href="/PH/OrasngHimala.ph/">
+                        <img decoding="async" loading="lazy" src="https://i.imgur.com/UjXSgKu.png" alt="">Oras ng Himala 
+                    </a>
+                    <a id="PTV.ph" href="/PH/PTV.ph/">
+                        <img decoding="async" loading="lazy" src="https://i.imgur.com/MMccHNd.png" alt="">PTV 
+                    </a>
+                    <a id="SMNI.ph" href="/PH/SMNI.ph/">
+                        <img decoding="async" loading="lazy" src="https://i.imgur.com/9QhVnqY.jpg" alt="">SMNI 
+                    </a>
+                    <a id="TeleRadyo.ph" href="/PH/TeleRadyo.ph/">
+                        <img decoding="async" loading="lazy" src="https://i.imgur.com/fTYOu5k.png" alt="">TeleRadyo 
+                    </a>
+                    <a id="TVMaria.ph" href="/PH/TVMaria.ph/">
+                        <img decoding="async" loading="lazy" src="https://i.imgur.com/yhIM9yU.png" alt="">TV Maria 
+                    </a>
+                </section>
+            </details>
+        </main>
+        <script type="module">
+            const e=window?.navigator?.connection;e&&(e.saveData==!0||["slow-2g","2g"].includes(e?.effectiveType)==!0)&&document.querySelectorAll('img[alt=""]')?.forEach(o=>o.remove());
+        </script>
+        <footer>
+            © 2024 <a rel="nofollow" href="https://maheshwarravuri.com">Maheshwar Ravuri </a>
+            . All rights
+			reserved
+
+        </footer>
+        <script type="module" src="/__/tracking.astro_astro_type_script_index_0_lang.BD83wpeo.js"></script>
+        <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"8978e3664bec84e7","r":1,"version":"2024.4.1","token":"6f5d8ffbced74a93b8bb751f91892a07"}' crossorigin="anonymous"></script>
+    </body>
+</html>
